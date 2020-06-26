@@ -38,7 +38,7 @@ public class UsersTab extends Fragment {
 
         listView = view.findViewById(R.id.listView);
         arrayList = new ArrayList();
-        arrayAdapter = new ArrayAdapter(getContext(), android.R.layout.simple_list_item_2, arrayList);
+        arrayAdapter = new ArrayAdapter(getContext(), android.R.layout.simple_list_item_1, arrayList);
         txtLoadingUsers = view.findViewById(R.id.txtLoadingUsers);
 
         ParseQuery<ParseUser> parseQuery = ParseUser.getQuery();
